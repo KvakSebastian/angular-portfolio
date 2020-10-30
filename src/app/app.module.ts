@@ -12,10 +12,9 @@ import { GitServiceService } from './git-service.service';
 import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
-  {path: '', component:EducationComponent},
-  {path: 'service', component:ServiceComponent}
-
-]
+  {path: '', component: EducationComponent},
+  {path: 'service', component: ServiceComponent}
+];
 
 @NgModule({
   declarations: [

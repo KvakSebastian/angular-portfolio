@@ -6,15 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-info.component.scss']
 })
 export class ContactInfoComponent implements OnInit {
-  email:string;
-  number:string;
-  location:string;
+  email: string;
+  number: string;
+  location: string;
   constructor() { }
 
   ngOnInit(): void {
-    this.email = "kvaksebastian@gmail.com";
-    this.number = "+380505507922";
-    this.location = "Ivano-Frankivsk, Ukraine";
+    this.email = 'kvaksebastian@gmail.com';
+    this.number = '+380505507922';
+    this.location = 'Ivano-Frankivsk, Ukraine';
   }
 
 }

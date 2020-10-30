@@ -8,16 +8,16 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ServiceComponent implements OnInit {
 
-  userName:string = "KvakSebastian"
-  response:any;
+  userName = 'KvakSebastian';
+  response: any;
   constructor(private http: HttpClient){
 
   }
-  search(){
-    this.http.get('https://api.github.com/users/'+ this.userName)
-    .subscribe((response)=>{
+  search() {
+    this.http.get('https://api.github.com/users/' + this.userName)
+    .subscribe((response) => {
       this.response = response;
-    })
+    });
   }
   ngOnInit(): void {
   }
