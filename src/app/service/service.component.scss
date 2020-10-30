@@ -1,0 +1,48 @@
+.get{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    input{
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #00bc8c ;
+        color: #00bc8c;
+        outline: none;
+    }
+    button{
+        background: #00bc8c;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        color: aliceblue;
+    }
+}
+.info-content{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    .avatar{
+        margin-right: 20px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        box-shadow: 0 0 0 3px #00bc8c, 0 0 13px #333;    }
+}
+.change{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+    .btn-change{
+        cursor: pointer;
+        background: #00bc8c;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        color: aliceblue;
+    }
+}

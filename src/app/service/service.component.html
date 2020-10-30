@@ -1,0 +1,21 @@
+<div class="get"> User name:  <input type="text" [(ngModel)]="userName">
+<button (click)="search()">Search</button>
+</div>
+<div class="info" *ngIf="response">
+    <div class="info-content">
+        <img [src]="response.avatar_url" alt="" class="avatar">
+        <div class="user-info">
+            <h4>{{response.login}}</h4>
+            <p> ID : {{response.id}}</p>
+            <p> Github link : {{response.html_url}}</p>
+            <p> Public repos count : {{response.public_repos}}</p>
+            <p> Followers : {{response.followers}}</p>
+            <p> Created at : {{response.created_at}}</p>
+            <p> Updated at : {{response.updated_at}}</p>
+        </div>
+    </div>
+    <div class="change">
+        <button class="btn-change" routerLink="">Повернутися</button>
+    </div>
+</div>
+

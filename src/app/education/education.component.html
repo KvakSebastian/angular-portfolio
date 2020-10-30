@@ -1,0 +1,27 @@
+<div class="main">
+    <div class="ed-block">
+        <div class="education">
+            <h2>Education</h2>
+            <p><strong>Computer Engeneering</strong></p>
+            <p class="place">at Ivano-Frankivsk National Technical
+                University of Oil and Gas</p>
+            <p class="date"> <em>09/2016 - 07/2020</em></p>
+        </div>
+        <div class="education">
+            <h2>WORK EXPERIENCE</h2>
+            <p><strong>QC</strong></p>
+            <p class="place">Softjourn- Intership for 1 month</p>
+            <p class="date"> <em>09/2016 - 07/2020</em></p>
+        </div>
+    </div>
+    
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li *ngFor="let skill of skills">{{skill}}</li>
+        </ul>
+    </div>
+</div>
+<div class="change">
+    <button class="btn-change" routerLink="service">Отримати інформацію</button>
+</div>
